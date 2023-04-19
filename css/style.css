@@ -2,16 +2,37 @@
     margin: 0;
     padding: o;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* inizio utilities*/
-body{
-    font-family: 'Open Sans', sans-serif;
-}
 
 .position-relative{
     position: relative;
 }
+
+.container-55{
+    width: 55%;
+    margin: 0 auto;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.col-33{
+    width: calc(100% / 3 - 30px);
+    border: 1px solid black;
+}
+
+.col-30{
+    width: 30%;
+}
+
+.col-70{
+    width: 70%;
+}
+
 /*fine utilities*/
 
 /*inizio header*/
@@ -42,8 +63,9 @@ body{
 
 .tasto-blu{
     background-color: blue;
-    padding: 5px 10px;
+    padding: 5px 15px;
     color: white;
+    border: none;
 }
 
 /*fine header*/
@@ -66,19 +88,6 @@ body{
 
 .riga-jumbotron-2{
     display: flex;
-}
-
-.col-100{
-    width: 100%;
-    
-}
-
-.col-30{
-    width: 30%;
-}
-
-.col-70{
-    width: 70%;
 }
 
 .titolo-jumbotron{
@@ -111,6 +120,81 @@ body{
 }
 
 /*fine jumbotron*/
+/*main 1*/
+.riga-main-1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+
+.input-radio{
+    margin: 50px 0;
+}
+
+.testo-input-2{
+    margin-left: 40px;
+}
+
+.nome-col-33{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+}
+
+.padding-col-33{
+    padding: 20px;
+}
+
+.prezzo-col-33{
+    margin-top: 10px;
+}
+
+.mese-col-33{
+    color: grey;
+    margin-top: 10px;
+}
+
+.ul-col-33{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.li-col-33{
+    display: flex;
+        margin-top: 20px;
+}
+
+.margin-tasto-blu-1{
+    margin: 105px 0 20px 0;
+}
+
+.margin-tasto-blu-2{
+    margin: 85px 0 20px 0;
+}
+
+.margin-tasto-blu-3{
+    margin: 40px 0 20px 0;
+}
+
+.link-acquista-ora{
+    color: blue;
+}
+
+.hr-main-1{
+    width: 20%;
+    margin: 20px 0;
+}
+
+.fa-solid{
+    padding-top: 5px;
+    margin-right: 5px;
+}
+
+/* fine main 1*/
 /*fine main*/
 
 /*inizio footer*/
