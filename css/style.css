@@ -8,6 +8,10 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+.position-relative{
+    position: relative;
+}
 /*fine utilities*/
 
 /*inizio header*/
@@ -27,13 +31,16 @@ body{
     align-items: center;
 }
 
-.link-nav,  .link-nav-blu{
-    text-decoration: none;
-    color: black;
+.margin-link{
     margin: 0 10px 0 30px;
 }
 
-.link-nav-blu{
+.link-nav ,.tasto-blu{
+    text-decoration: none;
+    color: black;
+}
+
+.tasto-blu{
     background-color: blue;
     padding: 5px 10px;
     color: white;
@@ -44,10 +51,65 @@ body{
 /*inizio main*/
 /*jumbotron*/
 .jumbotron{
-    width: 80%;
     background-color: lightblue;
-    height: 500px;
 }
+
+.contenitore-jumbotron{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.riga-jumbotron-1{
+    width: 100%;
+    padding-top: 50px;
+}
+
+.riga-jumbotron-2{
+    display: flex;
+}
+
+.col-100{
+    width: 100%;
+    
+}
+
+.col-30{
+    width: 30%;
+}
+
+.col-70{
+    width: 70%;
+}
+
+.titolo-jumbotron{
+    font-size: 60px;
+    text-align: justify;
+}
+
+.contenuto-col-30-jumbotron{
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.testo-col-30{
+    margin-bottom: 30px;
+}
+
+.img-jumbotron{
+    width: 800px;
+    position: absolute;
+    top: 50px;
+}
+
+.margin-top{
+    margin-top: 30px;
+}
+
+.freccia-jumbotron{
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+
 /*fine jumbotron*/
 /*fine main*/
 

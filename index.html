@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
@@ -18,17 +19,17 @@
                     <div class="col-header">
                         <div class="contenuto-header">
                             <span class="logo-header"><img src="./img/logo-small.png" alt="logo-small"></span>
-                            <a href="#" class="link-nav">Perchè Dropbox</a>
-                            <a href="#" class="link-nav">Funzioni</a>
-                            <a href="#" class="link-nav">Piani e Prezzi</a>
+                            <span class="margin-link"><a href="#" class="link-nav">Perchè Dropbox</a></span>
+                            <span class="margin-link"><a href="#" class="link-nav">Funzioni</a></span>
+                            <span class="margin-link"><a href="#" class="link-nav">Piani e Prezzi</a></span>
                         </div>
                     </div>
                     <div class="col-header">
                         <div class="contenuto-header">
-                            <a href="#" class="link-nav">Supporto</a>
-                            <a href="#" class="link-nav">Contatta l'ufficio venfitore</a>
-                            <a href="#" class="link-nav">Accedi</a>
-                            <a href="#" class="link-nav-blu">Inizia</a>
+                            <span class="margin-link"><a href="#" class="link-nav">Supporto</a></span>
+                            <span class="margin-link"><a href="#" class="link-nav">Contatta l'ufficio venfitore</a></span>
+                            <span class="margin-link"><a href="#" class="link-nav">Accedi</a></span>
+                            <span class="margin-link"><button class="tasto-blu">Inizia</button></span>
                         </div>
                     </div>
                 </div>
@@ -39,17 +40,42 @@
         <!--inizio main-->
         <main>
             <!--jumbotron-->
-            <div class="jumbotron">
-                <div class="riga-jumbo">
-                    <div class="col-100"></div>
-                    <div class="col-30"></div>
-                    <div class="col-70"></div>
-                <div>
+        <div class="jumbotron">
+            <div class="contenitore-jumbotron">
+                <div class="riga-jumbotron-1">
+                    <div class="col-100">
+                        <h1 class="titolo-jumbotron">
+                            Tutto ciò che ti serve per il lavoro in un posto unico
+                        </h1>
+                    <div>
+                </div>
+                <div class="riga-jumbotron-2">
+                    <div class="col-30">
+                        <div class="contenuto-col-30-jumbotron">
+                            <div class="testo-col-30">
+                                Finalmente tutti i tuoi strumenti contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
+                            </div>
+                            <button class="tasto-blu">Inizia la prova gratuita</button>
+                            <div class="margin-top">
+                                Annulla in qualsiasi momento
+                            </div>
+                            <div class="freccia-jumbotron"><i class="fa-solid fa-arrow-down fa-2xl" style="color: #000000;"></i></div>
+
+                        </div>    
+                    </div>
+                    <div class="col-70 position-relative">
+                            <div class="contenuto-col-70-jumbotron">
+                                <img src="./img/jumbo.png" alt="jumbo" class="img-jumbotron">
+                             </div>
+                    </div>
+                </div>
+                
             </div>
-            <!--fine jumbotron-->
+        </div>
+        <!--fine jumbotron-->
         </main>
         <!--fine main-->
-
+       
         <!--inizio footer-->
         <!--fine footer-->
     </body>
