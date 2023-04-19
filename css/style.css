@@ -5,12 +5,50 @@
 }
 
 /* inizio utilities*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 /*fine utilities*/
 
 /*inizio header*/
+.contenitore-header{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.riga-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenuto-header{
+    display: flex;
+    align-items: center;
+}
+
+.link-nav,  .link-nav-blu{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px 0 30px;
+}
+
+.link-nav-blu{
+    background-color: blue;
+    padding: 5px 10px;
+    color: white;
+}
+
 /*fine header*/
 
 /*inizio main*/
+/*jumbotron*/
+.jumbotron{
+    width: 80%;
+    background-color: lightblue;
+    height: 500px;
+}
+/*fine jumbotron*/
 /*fine main*/
 
 /*inizio footer*/
