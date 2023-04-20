@@ -19,6 +19,11 @@ body, button{
     margin: 0 auto;
 }
 
+.riga{
+    width: 100%;
+    display: flex;
+}
+
 .col-100{
     width: 100%;
 }
@@ -231,8 +236,32 @@ body, button{
     align-items: start;
     padding: 25px 0 0 40px;
 }
-
 /* fine main 1*/
+
+/*main 2*/
+.margin-container-55{
+    margin-top: 150px;
+}
+
+.partner{
+    width: 100%;
+}
+
+.margin-col-30-main-2{
+    margin-left: 40px;
+    padding-top: 50px;
+}
+
+.testo-main-2{
+    padding: 20px 0;
+}
+
+.tasto-bianco{
+    background-color: white;
+    padding: 5px 15px;
+    color: black;
+}
+/*fine main 2*/
 /*fine main*/
 
 /*inizio footer*/
