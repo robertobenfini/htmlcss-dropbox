@@ -23,6 +23,11 @@ img{
     margin: 0 auto;
 }
 
+.container-100{
+    width: 100%;
+    margin: 0 auto;
+}
+
 .riga{
     width: 100%;
     display: flex;
@@ -92,7 +97,7 @@ img{
 
 /*inizio main*/
 /*jumbotron*/
-.jumbotron{
+.background-lightblue{
     background-color: lightblue;
 }
 
@@ -292,11 +297,9 @@ img{
 /*fine main 4*/
 
 /*main 5*/
-.container-100{
-    width: 100%;
-    margin: 100px auto;
+.margin-cont-100{
+    margin-top: 150px;
 }
-
 .riga-1-main-5{
     width: 100%;
     display: flex;
@@ -391,6 +394,32 @@ img{
     background-color: rgb(255, 216, 48);
 }
 /*fine main 5*/
+
+/*main 6*/
+.riga-main-6{
+    display: flex;
+    width: 100%;
+}
+
+.sfondo-cont-100{
+    background-color: lightblue;
+}
+
+.h2-col-70-main-6{
+    color: brown;
+    padding: 80px 80px;
+    font-size: 35px;
+}
+
+.tasto-main-6{
+    position: absolute;
+    right: 0;
+    top: 90px;
+}
+.padding-tasto-bianco{
+    padding: 5px 30px;
+}
+/*fine main6*/
 /*fine main*/
 /*inizio footer*/
 /*fine footer*/
