@@ -1,11 +1,14 @@
 *{
     margin: 0;
-    padding: o;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
 }
 
 /* inizio utilities*/
+
+body, button{
+    font-family: 'Open Sans', sans-serif;
+}
 
 .position-relative{
     position: relative;
@@ -130,7 +133,6 @@
 }
 
 
-
 .input-radio{
     margin: 50px 0;
 }
@@ -165,7 +167,7 @@
 
 .li-col-33{
     display: flex;
-        margin-top: 20px;
+    margin-top: 20px;
 }
 
 .margin-tasto-blu-1{
@@ -192,6 +194,42 @@
 .fa-solid{
     padding-top: 5px;
     margin-right: 5px;
+}
+
+.border-col-100{
+    border: 1px solid black;
+}
+
+ .titolo-col-100{
+    text-align: center;
+    border-bottom: 1px solid black;
+ }
+
+.riga-col-100{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.margin-col-100-main-1{
+    margin-top: 50px;
+}
+
+.padding-col-70-main-1{
+    padding: 20px;
+}
+
+.h2-col-70-main-1{
+    margin-bottom: 20px;
+}
+
+.margin-testo-col-70-main-1{
+    margin: 20px 0 40px 0;
+}
+
+.display-col-30{
+    display: flex;
+    align-items: start;
+    padding: 25px 0 0 40px;
 }
 
 /* fine main 1*/
