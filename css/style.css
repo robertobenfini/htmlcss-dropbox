@@ -10,6 +10,10 @@ body, button{
     font-family: 'Open Sans', sans-serif;
 }
 
+img{
+    width: 100%;
+}
+
 .position-relative{
     position: relative;
 }
@@ -22,6 +26,11 @@ body, button{
 .riga{
     width: 100%;
     display: flex;
+    justify-content: space-between;
+}
+
+.border{
+    border: 1px solid black;
 }
 
 .col-100{
@@ -30,7 +39,6 @@ body, button{
 
 .col-33{
     width: calc(100% / 3 - 30px);
-    border: 1px solid black;
 }
 
 .col-30{
@@ -39,6 +47,10 @@ body, button{
 
 .col-70{
     width: 70%;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 /*fine utilities*/
@@ -240,11 +252,7 @@ body, button{
 
 /*main 2*/
 .margin-container-55{
-    margin-top: 150px;
-}
-
-.partner{
-    width: 100%;
+    margin-top: 130px;
 }
 
 .margin-col-30-main-2{
@@ -262,6 +270,15 @@ body, button{
     color: black;
 }
 /*fine main 2*/
+/*main 3*/
+.h3-main-3{
+    margin-bottom: 20px;
+}
+
+.margin-col-main-3{
+    margin-bottom: 50px;
+}
+/*fine main 3*/
 /*fine main*/
 
 /*inizio footer*/
